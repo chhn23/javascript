@@ -42,3 +42,27 @@ console.log(Boolean(isLoggedIn1))
 let isLoggedIn2="Deepk";
 console.log(typeof Boolean(isLoggedIn2))
 console.log(Boolean(isLoggedIn2))
+
+let n=1234
+console.log(typeof String(n))
+console.log(String(n))
+
+/***********Operations*********** */
+console.log(2+2);
+console.log(2-2)
+console.log(2/2)
+console.log(2%2)
+console.log(2*2)
+console.log(2**2)
+
+
+let string1="Deepak";
+let string2="Chauan";
+let string3=string1+string2;
+console.log(string3)
+console.log(1+"2")
+console.log("1"+2)
+console.log("1"+2+2)
+console.log(typeof("1"+2+2))
+console.log(2+2+"1")
+console.log(typeof(2+2+"1"))
