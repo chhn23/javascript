@@ -1,0 +1,44 @@
+let score ="33";
+console.log(typeof score)
+let valueInNUmber=Number(score)
+console.log(typeof valueInNUmber)
+
+let score2 ="33abc";
+console.log(typeof score2)
+let valueInNUmber2=Number(score2)
+console.log(typeof valueInNUmber2)
+console.log(valueInNUmber2)
+
+
+let score3 ="null";
+console.log(typeof score3)
+let valueInNUmber3=Number(score3)
+console.log(typeof valueInNUmber3)
+console.log(valueInNUmber3)
+
+let score4 ="null";
+console.log(typeof score4)
+let valueInNUmber4=Number(score4)
+console.log(typeof valueInNUmber4)
+console.log(valueInNUmber4)
+
+/*
+33=> number
+33ab => NaN
+true=> 1
+false=>0
+
+*/
+
+let isLoggedIn=0;
+console.log(typeof isLoggedIn)
+
+console.log(typeof Boolean(isLoggedIn))
+
+let isLoggedIn1="";
+console.log(typeof Boolean(isLoggedIn1))
+console.log(Boolean(isLoggedIn1))
+
+let isLoggedIn2="Deepk";
+console.log(typeof Boolean(isLoggedIn2))
+console.log(Boolean(isLoggedIn2))
