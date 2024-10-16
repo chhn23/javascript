@@ -37,3 +37,20 @@ console.log(Object.keys(user))
 console.log(Object.values(user))
 console.log(Object.entries(user))
 console.log(user.hasOwnProperty('isloggedin'))
+
+
+/*Destructuring of objects*/
+const course={
+    "courseaName":"hindi",
+    "coursePrice":999,
+    "instructor":"hitesh"
+}
+//course.coursePrice
+const {courseaName}=course;
+console.log(courseaName)
+const {courseaName:courseNm}=course;
+console.log(courseNm)
+// {
+//     "name":"n1",
+//     "id":123
+// };
