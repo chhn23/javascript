@@ -31,3 +31,13 @@ do{
     console.log("score is "+score);
     score++;
 }while(score<=10)    
+
+//****************************************************** */
+let myObject={
+    "js":"javascript",
+    "cpp":"c++",
+    "rb":"ruby"
+}    
+for(const key in myObject){
+    console.log(`value of ${key} is ${myObject[key]}`)
+}
