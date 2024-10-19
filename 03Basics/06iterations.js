@@ -32,15 +32,7 @@ do{
     score++;
 }while(score<=10)    
 
-//****************************************************** */
-let myObject={
-    "js":"javascript",
-    "cpp":"c++",
-    "rb":"ruby"
-}    
-for(const key in myObject){
-    console.log(`value of ${key} is ${myObject[key]}`)
-}
+
 
 
 //**************************FOR OF********************************** */
@@ -78,5 +70,54 @@ for (const [key,value] of map) {
 // }
 
 
+//****************************************************** */
+let myObject={
+    "js":"javascript",
+    "cpp":"c++",
+    "rb":"ruby"
+}    
+for(const key in myObject){
+    console.log(`value of ${key} is ${myObject[key]}`)
+}
 
+let programming=["c++","ruby","java","node"]
+for (const key in programming) {
+    console.log(key)
+}
+for (const key in programming) {
+    console.log(programming[key])
+}
 
+for (const key in map) {
+    console.log(key) //wont work as map is not iterable
+}
+
+programming.forEach(function (item){
+    console.log("foreach")
+    console.log(item)
+})
+programming.forEach((item)=>{
+    console.log("arrow function")
+    console.log(item)
+})
+programming.forEach((item,index,arr)=>{
+    console.log("all arguments")
+    console.log(item,index,arr)
+})
+
+const mycoding=[{
+    "langname":"javascript",
+    "filename":".js"
+},
+{
+    "langname":"java",
+    "filename":".java"
+},
+{
+    "langname":"python",
+    "filename":".py"
+}]
+console.log("foreach::::::::::::::")
+mycoding.forEach(element => {
+    console.log(element.langname)
+});
