@@ -41,3 +41,38 @@ let myObject={
 for(const key in myObject){
     console.log(`value of ${key} is ${myObject[key]}`)
 }
+
+
+//**************************FOR OF********************************** */
+const arr=[1,2,3,4,5,6]
+for (const element of arr) {
+    console.log(element)
+}
+
+const greet="hello greetings!"
+for (const element of greet) {
+    console.log(element)
+}
+
+//Maps
+const map=new Map();
+map.set("IN","INDIA")
+map.set("US","USA")
+console.log(map)
+for (const key of map) {
+    console.log(key)
+}
+
+for (const [key,value] of map) {
+    console.log(key,value)
+}
+
+//Object
+
+// let myObj={
+//     "game1":"NFS",
+//     "game2":"GTA"
+// }
+// for (const [key,value] of myObj) {
+//     console.log(key,":-",value)  //will give error as object is not iterable
+// }
