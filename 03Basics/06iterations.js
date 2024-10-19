@@ -76,3 +76,7 @@ for (const [key,value] of map) {
 // for (const [key,value] of myObj) {
 //     console.log(key,":-",value)  //will give error as object is not iterable
 // }
+
+
+
+
