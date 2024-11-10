@@ -1,0 +1,5 @@
+javascript is
+1)Synchronous
+2)Single threaded
+
+promise is object representing eventual completion
